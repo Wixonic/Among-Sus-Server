@@ -1,8 +1,0 @@
-#!include:.gitignore
-
-.github/
-
-.editorconfig
-.package-lock.json
-LICENSE
-README.md
