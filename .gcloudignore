@@ -1,0 +1,7 @@
+#!include:.gitignore
+
+.github/
+
+.editorconfig
+LICENSE
+README.md
