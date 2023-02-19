@@ -1,5 +1,5 @@
 {
-	"name": "among-sus-server",
+	"name": "@wixonic/among-sus-server",
 	"author": {
 		"name": "Wixonic",
 		"email": "contact@wixonic.fr",
@@ -11,16 +11,23 @@
 		"server",
 		"nodejs"
 	],
+
 	"bugs": {
 		"email": "contact@wixonic.fr",
 		"url": "https://github.com/Wixonic/Among-Sus-Server/issues"
 	},
 	"homepage": "https://github.com/Wixonic/Among-Sus-Server#readme",
 	"license": "MIT",
+
+	"version": "0.0.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Wixonic/Among-Sus-Server.git"
 	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+
 	"main": "app.js",
 	"scripts": {
 		"start": "node app.js"
@@ -28,7 +35,7 @@
 	"engines": {
 		"node": ">=16.x.x"
 	},
-	"version": "0.0.1",
+	
 	"dependencies": {
 		"express": "^4.18.2",
 		"socket.io": "^4.6.0"
